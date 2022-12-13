@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;500&display=swap');
+
+#container {
+    width: 80%;
+    max-width: 1200px;
+    height: 90%;
+    margin: 0 auto;
+    padding-bottom: 20%;
+    /* background-color: rgb(101, 241, 169); */
+    align-items: center;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    padding-top: 10%;
+    align-items: center;
+    background-image: linear-gradient( 135deg, #abc9f6 60%, #7d9dd1 90% );
+}
+
+#head {
+    padding: 3%;
+}
+
+#foto_perfil {
+    width: 20%;
+    max-width: 320px;
+    margin: 0 auto;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#titulo_nome {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 3vh;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+}
+
+#conteudo {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#conteudo #titulo {
+    text-align: start;
+    font-family: 'Oswald';
+    font-size: 3vh;
+    margin-left: 2rem;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+}
+
+#box_links {
+    justify-content: center;
+    align-items: center;
+}
+
+.card_link {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 40px;
+    width: 80%;
+    transition: all 0.3s ease-out;
+    margin: 0 auto;
+    background-image: linear-gradient( 90deg, rgb(252, 230, 202), rgb(220, 202, 178) 90% );
+}
+
+.card_link:hover {
+    transform: translateY(-5px);
+}
+
+.subTitulo{
+    color: rgb(45, 43, 43);
+    font-size: 0.9em;
+    font-family: 'Oswald';
+    font-weight: 200;
+}
+
+.titulo {
+    color: #000;
+    font-size: 2em;
+    font-family: 'Oswald';
+}
+
+.icons {
+    float: right;
+    max-width: 64px;
+    max-height: 64px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.icons {
+    width: 30px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+#footer {
+    margin: auto;
+    width: 80%;
+    bottom: 4vh;
+    padding-top: 10%;
+    text-align: center;
+}
+
+#footer p {
+    color: rgb(0, 0, 0);
+    font-family: 'Chivo Mono';
+    font-weight: 400;
+    vertical-align: middle;
+    font-size: 2vh;
+}
+
+#footer span {
+    color: rgb(0, 0, 0);
+    font-weight: 100;
+    font-size: 2vh;
+}
